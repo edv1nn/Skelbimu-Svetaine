@@ -1,0 +1,18 @@
+.navbar {
+  background-image: url("../../images/header_background.webp");
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4%;
+  border-bottom: 1px solid #a9a9a9;
+  background-color: #000;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.profile {
+  width: 40px;
+}

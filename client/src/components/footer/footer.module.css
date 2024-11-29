@@ -1,0 +1,92 @@
+.footer {
+  padding: 4rem 0;
+  margin-top: 6.25rem;
+
+  color: #fff;
+
+  background-color: #000;
+}
+
+.footer_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+
+  text-align: center;
+}
+
+.logo_container {
+  flex: 1;
+  max-width: 12.5rem;
+}
+
+.logo_container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer_content {
+  flex: 2;
+  max-width: 43.75rem;
+
+  text-align: center;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.625rem;
+}
+
+.social_icon {
+  margin: 0 0.625rem;
+
+  font-size: 1.5rem;
+
+  transition: transform 0.3s;
+}
+
+.subscription_text {
+  margin: 1.25rem 0;
+
+  line-height: 1.5;
+}
+
+.subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.subscription_email {
+  padding: 0.5rem;
+  height: 2.5rem;
+  width: 15.625rem;
+
+  background-color: transparent;
+  border: 0.125rem solid #fff;
+}
+
+.button {
+  padding: 0 1rem;
+  height: 2.5rem;
+  margin-left: 0.625rem;
+
+  color: #fff;
+
+  background-color: #4b3c2a;
+  border: none;
+
+  cursor: pointer;
+}
+
+.copyright {
+  flex: 1;
+  max-width: 9.375rem;
+
+  text-align: center;
+  line-height: 1.5;
+}

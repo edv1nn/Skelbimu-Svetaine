@@ -1,0 +1,198 @@
+.login_popup {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+
+  position: fixed;
+  z-index: 50;
+
+  background-color: rgba(0, 0, 0, 0.56);
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.login_popup.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.login_popup.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.login_popup_container {
+  width: clamp(330px, 23vw, 600px);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+
+  font-size: 0.875rem;
+  place-self: center;
+  color: #ccc;
+
+  background-color: #18181b;
+  border-radius: 0.5rem;
+
+  transition: transform 0.3s ease;
+  transform: scale(0.9);
+}
+
+.login_popup.visible .login_popup_container {
+  transform: scale(1);
+}
+
+.login_popup_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+.title_container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.login_popup_title h2 {
+  margin: 0 0 0 0.625rem;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.close_icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  color: #fff;
+  font-size: 1.5rem;
+
+  cursor: pointer;
+}
+
+.login_popup_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.login_popup_inputs input {
+  padding: 0.625rem;
+
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #67676b;
+  border-radius: 0.25rem;
+}
+
+.login_popup_container button {
+  padding: 0.625rem;
+
+  font-size: 0.9375rem;
+  color: #fff;
+
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #4b3c2a;
+
+  cursor: pointer;
+}
+
+.login_popup_condition {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.3125rem 0;
+}
+
+.login_popup p span {
+  color: #4b3c2a;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.link {
+  margin-left: 0.3125rem;
+}
+
+.google_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 0.9375rem;
+  width: 100%;
+  margin-top: 0.625rem;
+
+  color: #fff;
+  font-size: 1rem;
+
+  background-color: #4285f4;
+  border: none;
+  border-radius: 0.3125rem;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.google_button:hover {
+  background-color: #357ae8;
+}
+
+.google_button img {
+  width: 1.25rem;
+  margin-right: 0.625rem;
+}
+
+.password_container {
+  position: relative;
+}
+
+.password_container input {
+  width: 100%;
+  padding-right: 2.5rem;
+}
+
+.password_toggle_icon {
+  position: absolute;
+  right: 0.625rem;
+  top: 50%;
+
+  font-size: 1.25rem;
+  color: #808080;
+
+  transform: translateY(-50%);
+
+  cursor: pointer;
+}
+
+.additional_text {
+  font-size: 0.75rem;
+  color: #ccc;
+}
+
+.error_message {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+
+  line-height: 1.5;
+
+  border-radius: 0.3125rem;
+  background-color: rgba(226, 84, 40, 0.9);
+}
+
+.error_icon {
+  margin-right: 0.5rem;
+
+  color: #fff;
+}

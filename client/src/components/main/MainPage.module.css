@@ -1,0 +1,46 @@
+/* MainPage.module.css */
+.mainPage {
+    padding: 20px;
+    text-align: center;
+}
+
+.createAdButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.createAdButton:hover {
+    background-color: #0056b3;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.productAdsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.productAd {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productAd h3 {
+    margin-bottom: 10px;
+}
+
+.productAd p {
+    margin-bottom: 5px;
+}
