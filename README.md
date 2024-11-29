@@ -1,6 +1,6 @@
 ## Skelbimų Svetainė
 
-Responsive Coffee Website built with React and Vite.
+Responsive Skelbimų Svetainė built with React and Vite.
 
 </ul><h2> Preview ⚡️</h2>
 
@@ -10,7 +10,7 @@ Responsive Coffee Website built with React and Vite.
 ✅ User profile management (edit profile, change password) <br />
 
 ## Website 💻
-[Visit the Coffee Website](https://edv1nn.github.io/Kavos-Parduotuve/)
+[Visit the Coffee Website](https://github.com/edv1nn/Skelbimu-Svetaine)
 
 ## Technologies used 🛠️
 **Frontend**: *React & Vite, CSS* <br />
@@ -21,7 +21,7 @@ Responsive Coffee Website built with React and Vite.
 
 ```bash
 #1️⃣ clone this project
-~ git clone https://github.com/edv1nn/Kavos-Parduotuve.git
+~ git clone https://github.com/edv1nn/Skelbimu-Svetaine
 #2️⃣ cd into it
 ~ cd client
 #3️⃣ install client node_modules
